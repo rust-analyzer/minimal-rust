@@ -1,0 +1,32 @@
+{
+    "name": "minimal-rust",
+    "displayName": "minimal-rust",
+    "description": "Empty textmate grammar for rust",
+    "preview": true,
+    "publisher": "matklad",
+    "repository": {
+        "url": "https://github.com/matklad/minimal-rust"
+    },
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.41.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "scripts": {
+        "package": "vsce package"
+    },
+    "devDependencies": {
+        "vsce": "^1.71.0"
+    },
+    "contributes": {
+        "grammars": [
+            {
+                "language": "rust",
+                "scopeName": "source.rust",
+                "path": "./rust.tmLanguage.json"
+            }
+        ]
+    }
+}
